@@ -20,9 +20,9 @@ const Philosophy = () => {
         sizes="(max-width: 768px) 100vw, 1920px"
       />{" "}
       <div className="swiper">
-        <div className="swiper-wrapper flex gap-[2%] mt-20 lg:flex-nowrap flex-wrap">
-          <div className="swiper-slide !h-auto w-[45%] flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-md p-sm ">
+        <div className=" flex gap-[2%] mt-20 lg:flex-nowrap flex-wrap">
+          <div className=" !h-auto w-[45%] flex-grow">
+            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
               <figure className="w-fit rounded-full">
                 <img
                   srcSet="images/28029da89383a59e47420ee46b7e4c364051b45f-50x50_1.svg 50w"
@@ -45,8 +45,8 @@ const Philosophy = () => {
             </li>
           </div>
 
-          <div className="swiper-slide !h-auto w-[45%] flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-md p-sm ">
+          <div className=" !h-auto w-[45%] flex-grow">
+            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
               <figure className="w-fit rounded-full">
                 <img
                   srcSet="images/36c4da4283252fda5dce13c46ea3e06a5312218c-50x51_1.png 50w"
@@ -71,8 +71,8 @@ const Philosophy = () => {
             </li>
           </div>
 
-          <div className="swiper-slide !h-auto w-[45%]  flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-md p-sm ">
+          <div className=" !h-auto w-[45%]  flex-grow">
+            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
               <figure className="w-fit rounded-full">
                 <img
                   srcSet="images/1966d94a29ffe1673fd510327ba0eb409f82b680-50x50_1.svg 50w"
