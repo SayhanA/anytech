@@ -1,6 +1,7 @@
 import Finance from "@/components/Finance";
 import Hero from "@/components/Hero";
 import Philosophy from "@/components/Philosophy";
+import Technologys from "@/components/Technologys";
 
 export const metadata = {
   title: "Home Page | AnyTech",
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Finance />
       <Philosophy />
+      <Technologys />
     </>
   );
 }
