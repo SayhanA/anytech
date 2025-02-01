@@ -1,7 +1,9 @@
 import Finance from "@/components/Finance";
 import Hero from "@/components/Hero";
+import Legacy from "@/components/Legacy";
 import Philosophy from "@/components/Philosophy";
 import Technologys from "@/components/Technologys";
+import TrustedBy from "@/components/TrustedBy";
 
 export const metadata = {
   title: "Home Page | AnyTech",
@@ -15,6 +17,8 @@ export default function Home() {
       <Finance />
       <Philosophy />
       <Technologys />
+      <TrustedBy />
+      <Legacy />
     </>
   );
 }

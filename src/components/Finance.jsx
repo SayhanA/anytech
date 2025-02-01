@@ -104,84 +104,6 @@ const Finance = () => {
             </div>
           </div>
 
-          {/* <div className="hidden md:block relative h-fit lg:text-clip">
-            <figure
-              className="w-[76%] mx-auto"
-              style={{ boxShadow: "0px 23px 30px 0px #16437763" }}
-            >
-              <img
-                srcSet="images/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364_1.png 320w, images/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364_2.png 640w, images/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364_3.png 960w, images/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364_4.png 1124w"
-                src="images/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364.png"
-                width="1124"
-                height="1364"
-                alt="POWERING THE FUTURE OF FINANCE"
-                className="object-cover w-full h-full"
-                sizes="(min-width: 1024px) 45vw, 95vw"
-                loading="lazy"
-              />
-            </figure>
-
-            <div>
-              <figure className="absolute top-[10%] right-[12%] translate-x-1/2 w-[min(115px,_30%)] rounded-full drop-shadow-2xl">
-                <img
-                  srcSet="images/0f6c8e3f8d16b88978823d82126b03593266eb79-116x115_1.svg 116w"
-                  src="images/0f6c8e3f8d16b88978823d82126b03593266eb79-116x115.svg"
-                  width="116"
-                  height="115"
-                  alt="anybass"
-                  sizes="115px"
-                  className="object-contain w-full h-full"
-                  loading="lazy"
-                />
-              </figure>
-
-              <figure className="absolute top-[40%] left-[20%] w-[min(87px,_20%)] rounded-full drop-shadow-2xl">
-                <img
-                  srcSet="images/f034c835798f95c1ce84f9c34ba48682b6383d06-89x88_1.svg 89w"
-                  src="images/f034c835798f95c1ce84f9c34ba48682b6383d06-89x88.svg"
-                  width="89"
-                  height="88"
-                  alt="anypass"
-                  sizes="87px"
-                  className="object-contain w-full h-full"
-                  loading="lazy"
-                />
-              </figure>
-
-              <figure className="absolute top-[20%] left-[12%] -translate-x-1/2 w-[min(73px,_18%)] rounded-full drop-shadow-2xl">
-                <img
-                  srcSet="images/c544c6e75349fb440fc0938052f9288519c87bec-74x75_1.svg 74w"
-                  src="images/c544c6e75349fb440fc0938052f9288519c87bec-74x75.svg"
-                  width="74"
-                  height="75"
-                  className="object-contain w-full h-full"
-                  alt="anycaas"
-                  sizes="73px"
-                  loading="lazy"
-                />
-              </figure>
-            </div>
-
-            <figure className="absolute inset-0 w-full h-full -z-10">
-              <img
-                className="object-cover w-full h-full overflow-visible"
-                loading="lazy"
-                src="images/background.svg"
-                alt="background frame"
-              />
-            </figure>
-
-            <figure className="absolute h-[50%] w-[50%] z-10 -bottom-[18%] right-[20%]">
-              <img
-                className="object-cover w-full h-full overflow-visible"
-                loading="lazy"
-                src="images/foreground.png"
-                alt="foreground frame"
-              />
-            </figure>
-          </div> */}
-
-          
           <div className="hidden md:block relative h-fit lg:text-clip">
             <figure
               className="w-[76%] mx-auto"
@@ -267,6 +189,7 @@ const Finance = () => {
               </div>
             </figure>
           </div>
+          
         </div>
       </section>
       <FinenceBottomSVG />
