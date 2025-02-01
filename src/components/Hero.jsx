@@ -47,22 +47,40 @@ const Hero = () => {
 
         <div className="hidden lg:block absolute top-0 xl:left-[35%] xl:w-[65%] left-1/2 lg:w-[56%] h-full bg-clip-hero-image pointer-events-none">
           <figure className="h-[115%] w-[115%] object-cover relative">
-            <img
-              srcSet="images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_1.jpg 320w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_2.jpg 640w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_7.jpg 960w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_5.jpg 1280w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_9.jpg 1600w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_4.jpg 1920w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_3.jpg 2240w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_10.jpg 2560w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_6.jpg 2880w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_11.jpg 3200w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_8.jpg 3520w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_12.jpg 3840w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_13.jpg 4160w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_14.jpg 4480w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_15.jpg 4800w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_25.jpg 5120w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_18.jpg 5440w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_20.jpg 5760w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_16.jpg 6080w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_17.jpg 6400w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_22.jpg 6720w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_24.jpg 7040w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_21.jpg 7360w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_19.jpg 7680w, images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_23.jpg 7952w"
-              src="images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304.jpg"
-              width="7952"
-              height="5304"
-              style={{
-                background:
-                  "url('data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAYIB//EACIQAAEDBAICAwAAAAAAAAAAAAECAwQABQYREiEHURUiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABkRAAMBAQEAAAAAAAAAAAAAAAABEQIhMf/aAAwDAQACEQMRAD8AfPDd6iybe04t9KVbU4tKj2BTLl9/huuw0Rll0LJHJA2En9qRsXyW5Wnk3Ce4B0aV71WhC+zl463MLy/qSVN76Vr3TOG+GLPSi4U+KmK2HH20q12CaKm9PlqeEgfGRDoa2SSaKVlP/9k=') no-repeat center center",
-                backgroundSize: "cover",
-                width: "100vw",
-                height: "100vh",
-              }}
-              className="h-full w-full object-cover scale-150"
-              sizes="100vw"
-              alt="background image"
-            />
+          <Image
+          src="/images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304.jpg"
+          alt="background image"
+          layout="fill"
+          objectFit="cover"
+          priority
+          sizes="(max-width: 1024px) 55vw, 100vw"
+          srcSet="
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_1.jpg 320w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_2.jpg 640w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_7.jpg 960w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_5.jpg 1280w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_9.jpg 1600w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_4.jpg 1920w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_3.jpg 2240w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_10.jpg 2560w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_6.jpg 2880w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_11.jpg 3200w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_8.jpg 3520w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_12.jpg 3840w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_13.jpg 4160w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_14.jpg 4480w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_15.jpg 4800w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_25.jpg 5120w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_18.jpg 5440w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_20.jpg 5760w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_16.jpg 6080w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_17.jpg 6400w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_22.jpg 6720w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_24.jpg 7040w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_21.jpg 7360w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_19.jpg 7680w,
+            /images/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304_23.jpg 7952w"
+        />
           </figure>
           <div className="gradient-overlay svelte-1lc7tvy"></div>
         </div>
