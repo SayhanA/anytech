@@ -11,7 +11,7 @@ const Finance = () => {
   return (
     <>
       <section className="container mt-[62px]">
-        <div className="undefined grid md:grid-cols-2 grid-cols-1 md:gap-[15px] relative">
+        <div className="undefined grid md:grid-cols-2 grid-cols-1 md:gap-[15px] relative h-fit">
           <div className="md:space-y-sm space-y-xs">
             <h6 className="lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
               POWERING THE FUTURE OF FINANCE
@@ -86,7 +86,7 @@ const Finance = () => {
             </div>
 
             <div className="lg:pt-2">
-              <div>
+              <div className="flex flex-col justify-between gap-6">
                 <p>
                   <strong>
                     AnyTech is revolutionizing financial technology by
@@ -128,7 +128,7 @@ const Finance = () => {
 
             <div>
               <figure className="absolute top-[10%] right-[12%] translate-x-1/2 w-[min(115px,_30%)] rounded-full drop-shadow-2xl">
-                <div className="relative w-full h-full">
+                <div className="relative w-full h-full bouncing-figure">
                   <Image
                     src="/images/0f6c8e3f8d16b88978823d82126b03593266eb79-116x115.svg"
                     alt="anybass"
@@ -141,7 +141,7 @@ const Finance = () => {
               </figure>
 
               <figure className="absolute top-[40%] left-[20%] w-[min(87px,_20%)] rounded-full drop-shadow-2xl">
-                <div className="relative w-full h-full">
+                <div className="relative w-full h-full bouncing-figure">
                   <Image
                     src="/images/f034c835798f95c1ce84f9c34ba48682b6383d06-89x88.svg"
                     alt="anypass"
@@ -154,7 +154,7 @@ const Finance = () => {
               </figure>
 
               <figure className="absolute top-[20%] left-[12%] -translate-x-1/2 w-[min(73px,_18%)] rounded-full drop-shadow-2xl">
-                <div className="relative w-full h-full">
+                <div className="relative w-full h-full bouncing-figure">
                   <Image
                     src="/images/c544c6e75349fb440fc0938052f9288519c87bec-74x75.svg"
                     alt="anycaas"

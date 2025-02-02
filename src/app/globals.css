@@ -4046,3 +4046,20 @@ footer {
 .bottom-up3 {
   animation: appear-bottom 2s ease;
 }
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}
+
+.bouncing-figure {
+  animation: bounce 30s ease infinite;
+}

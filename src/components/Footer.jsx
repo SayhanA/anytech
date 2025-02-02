@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-[#022045]">
-        <div className="container py-12 flex justify-between">
+        <div className="container py-12 flex  gap-5 justify-between md:flex-nowrap flex-wrap">
           <Link
             aria-label="Go to home page"
             href="/en"
@@ -15,8 +15,8 @@ const Footer = () => {
           >
             <Logo />
           </Link>
-          <div className="flex gap-8 text-[#68ebea] group min-h-[100%] items-center transition-all">
-            <p className="border-0 border-r-2 border-[#164377] px-8 h-full flex justify-center items-center hover:text-[#1f80f0] transition-all cursor-pointer font-semibold">
+          <div className="flex sm:gap-8 gap-3 text-[#68ebea] group min-h-[100%] items-center transition-all  md:flex-nowrap flex-wrap">
+            <p className="border-0 border-r-2 border-[#164377] sm:px-8 pr-3 h-full flex justify-center items-center hover:text-[#1f80f0] transition-all cursor-pointer font-semibold">
               Our Solutions
             </p>
             <Link
@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-[#02152d] text-[#1e7eed] text-[12px] font-bold border-0 border-t-[1px] border-[#0f3f75]">
-        <div className="container py-6 flex justify-between">
+        <div className="container py-6 flex justify-between sm:flex-nowrap flex-wrap gap-5">
           <p>©2023 All rights reserved. Any Technology Pte Ltd.</p>
           <Link href="https://anytxn.com/en/privacy-policy">
             Privacy Policy
