@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import PhilosopyCard from "./PhilosophyCard";
 
 const Philosophy = () => {
   return (
@@ -19,83 +20,9 @@ const Philosophy = () => {
         alt="Proper alt text"
         sizes="(max-width: 768px) 100vw, 1920px"
       />{" "}
-      <div className="swiper">
-        <div className=" flex gap-[2%] mt-20 lg:flex-nowrap flex-wrap">
-          <div className=" !h-auto w-[45%] flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
-              <figure className="w-fit rounded-full">
-                <img
-                  srcSet="images/28029da89383a59e47420ee46b7e4c364051b45f-50x50_1.svg 50w"
-                  src="images/28029da89383a59e47420ee46b7e4c364051b45f-50x50.svg"
-                  width="50"
-                  height="50"
-                  sizes="50px"
-                  alt="Full suite solutions"
-                  className="lg:h-[50px] lg:w-[50px] h-[32px] w-[32px]"
-                  loading="lazy"
-                />
-              </figure>
-              <h4 className="undefined font-Montserrat text-blue-text text-res-head-4 lg:text-head-4">
-                Full-suite solutions
-              </h4>
-              <p className="text-body-1">
-                Experience the ease of integration across various banking and
-                payment functions with our comprehensive suite of solutions.
-              </p>
-            </li>
-          </div>
 
-          <div className=" !h-auto w-[45%] flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
-              <figure className="w-fit rounded-full">
-                <img
-                  srcSet="images/36c4da4283252fda5dce13c46ea3e06a5312218c-50x51_1.png 50w"
-                  src="images/36c4da4283252fda5dce13c46ea3e06a5312218c-50x51.png"
-                  width="50"
-                  height="51"
-                  sizes="50px"
-                  alt="Simplify the complex"
-                  className="lg:h-[50px] lg:w-[50px] h-[32px] w-[32px]"
-                  loading="lazy"
-                />
-              </figure>
-
-              <h4 className="undefined font-Montserrat text-blue-text text-res-head-4 lg:text-head-4">
-                Simplify the complex
-              </h4>
-              <p className="text-body-1">
-                Simplify complex processes and optimise your financial
-                operations by leveraging the power of AI, Blockchain, Cloud
-                Computing, and Big Data.
-              </p>
-            </li>
-          </div>
-
-          <div className=" !h-auto w-[45%]  flex-grow">
-            <li className="list-none undefined z-20 h-full md:space-y-sm space-y-[8px] bg-[#F8FCFF] hover:bg-[#eff8fe] rounded-[20px] md:p-md p-sm  hover:drop-shadow-xl cursor-pointer transition-all">
-              <figure className="w-fit rounded-full">
-                <img
-                  srcSet="images/1966d94a29ffe1673fd510327ba0eb409f82b680-50x50_1.svg 50w"
-                  src="images/1966d94a29ffe1673fd510327ba0eb409f82b680-50x50.svg"
-                  width="50"
-                  height="50"
-                  sizes="50px"
-                  alt="Cutting-edge tech"
-                  className="lg:h-[50px] lg:w-[50px] h-[32px] w-[32px]"
-                  loading="lazy"
-                />
-              </figure>
-              <h4 className="undefined font-Montserrat text-blue-text text-res-head-4 lg:text-head-4">
-                Cutting-edge tech
-              </h4>
-              <p className="text-body-1">
-                We seamlessly combine cutting-edge technologies, resulting in an
-                unparalleled fintech experience for financial institutions.
-              </p>
-            </li>
-          </div>
-        </div>
-      </div>
+        <PhilosopyCard />
+      
     </section>
   );
 };
